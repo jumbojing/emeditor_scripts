@@ -15,4 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.jsee	 diff=javascript
+
+# JGilmore (22/03/2017 15:57) 
+*.jsee	 -text=auto diff=astextplain
+*.tsv	 -text=auto diff=astextplain
